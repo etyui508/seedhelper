@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "seedhelper",
+  "version": "1.1.0",
+  "name": "SeedHelper (observation recorder)",
+  "description": "自动记录末地柱子顶面、结构起始区块、史莱姆区块、群系采样和客户端哈希种子，输出到一个 txt 供破种子用。",
+  "authors": ["etyui"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.etyui.seedhelper.SeedHelperClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "fabric": "*",
+    "minecraft": "1.21.10"
+  }
+}

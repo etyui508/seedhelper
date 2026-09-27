@@ -1,0 +1,9 @@
+# 构建缓存与产物（几百 MB，不进版本库）
+.build-cache/
+build/
+
+# 编译中间物
+*.class
+
+# 游戏里跑出来的观察记录（含你自己的种子数据，别提交）
+seedhelper-observations.txt
